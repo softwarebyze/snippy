@@ -1,0 +1,1 @@
+*{box-sizing:border-box}body{margin:0;font-family:sans-serif}button{color:#f2f2f2;cursor:pointer;background:0;border:0;flex-direction:column;justify-content:center;align-items:center;display:flex}.snippet button:hover{border-bottom:2px solid #5077a7}input{color:#f2f2f2;background-color:#3d526b;border:0;border-radius:7px 0 0 7px;flex:1;padding:4px}input:focus{outline:none}

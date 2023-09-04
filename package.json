@@ -1,0 +1,36 @@
+{
+  "name": "snippy",
+  "displayName": "Snippy",
+  "version": "0.0.1",
+  "description": "Save and copy your frequently used text with ease",
+  "author": "zack",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@plasmohq/storage": "^1.5.0",
+    "plasmo": "0.69.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0"
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.4",
+    "@types/chrome": "0.0.227",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.32",
+    "@types/react-dom": "18.0.11",
+    "prettier": "2.8.7",
+    "typescript": "5.0.3"
+  },
+  "manifest": {
+    "host_permissions": [],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "$FIREFOX_EXT_ID"
+      }
+    }
+  }
+}

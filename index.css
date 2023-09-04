@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+button {
+  background: 0;
+  border: 0;
+  color: #f2f2f2;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.snippet button:hover {
+  border-bottom: #5077a7 2px solid;
+}
+
+input {
+  background-color: #3d526b;
+  border: 0;
+  color: #f2f2f2;
+  border-radius: 7 0 0 7;
+  padding: 4px;
+  flex: 1;
+}
+
+input:focus {
+  outline: none;
+}
