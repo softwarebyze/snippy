@@ -70,31 +70,35 @@ function IndexPopup() {
   }
 
   return (
-    <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        padding: 16,
-        paddingTop: 4,
-        backgroundColor: "#1e2b3a",
-        color: "#f2f2f2",
-      }}
-    >
-      <h1>Snippy</h1>
-      {snips.map((snip) => (
-        <Snippet key={Math.random()} text={snip} deleteSnip={deleteSnip} />
-      ))}
-      <form
-        onSubmit={addSnip}
+    <div style={{ width: "fit-content" }}>
+      <div
         style={{
           display: "flex",
-          border: "1px solid #2673CD",
-          borderRadius: 8,
+          flexDirection: "column",
+          padding: 16,
+          paddingTop: 4,
+          backgroundColor: "#1e2b3a",
+          color: "#f2f2f2",
         }}
       >
-        <input onChange={(e) => setSnip(e.target.value)} value={snip} />
-        <button style={{fontSize: 18}} onClick={addSnip}>+</button>
-      </form>
+        <h1>Snippy</h1>
+        {snips.map((snip) => (
+          <Snippet key={Math.random()} text={snip} deleteSnip={deleteSnip} />
+        ))}
+        <form
+          onSubmit={addSnip}
+          style={{
+            display: "flex",
+            border: "1px solid #2673CD",
+            borderRadius: 8,
+          }}
+        >
+          <input onChange={(e) => setSnip(e.target.value)} value={snip} />
+          <button style={{ fontSize: 18 }} onClick={addSnip}>
+            +
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
