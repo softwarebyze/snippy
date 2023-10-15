@@ -1,7 +1,7 @@
 {
   "name": "snippy",
   "displayName": "Snippy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Save and copy your frequently used text with ease",
   "author": "zack",
   "scripts": {
